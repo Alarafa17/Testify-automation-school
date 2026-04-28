@@ -1,0 +1,15 @@
+name: GitHub Actions Demo
+
+on:
+  push:
+    branches:
+      - stage
+
+jobs:
+  explore:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Test steps updated here."
+      
