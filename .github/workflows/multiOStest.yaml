@@ -1,7 +1,7 @@
 name: Merge CI
 
-on: 
-pull request
+on:
+  pull_request:
 
 jobs:
   build:
@@ -14,5 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Show OS
+      - name: Run Python script
         run: python qatest.py
+        
