@@ -55,5 +55,8 @@ anotherGreet(); // functions and scope */
 };
 myGreet("Nick"); // expressed function */
 
-const myArray=['Monday', 'Tuesday', 'Wednesday']
+const myArray=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 console.log(myArray. length)
+
+const fourthElement = myArray[5]
+console.log(fourthElement)
