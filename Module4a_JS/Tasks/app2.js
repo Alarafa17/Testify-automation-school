@@ -31,10 +31,29 @@ while(star<=50) {
     }
     greeting('Maryam'); function example */
 
-    function addNumbers(firstNumber, secondNumber) {
+    /* function addNumbers(firstNumber, secondNumber) {
         const sum = firstNumber + secondNumber
         console.log(sum)
 
     }
-    addNumbers(25,30)
+    addNumbers(25,30) */
     
+    /* function greet(){
+        const myName= 'Maryam'
+        console.log('Good evening, ' + myName)
+    }
+    greet()
+
+function anotherGreet(){
+    console.log('Hello, ' + myName)
+}
+anotherGreet(); // functions and scope */
+
+/* const myGreet = function(name){
+    console.log("Good morning, " + name);
+
+};
+myGreet("Nick"); // expressed function */
+
+const myArray=['Monday', 'Tuesday', 'Wednesday']
+console.log(myArray. length)
