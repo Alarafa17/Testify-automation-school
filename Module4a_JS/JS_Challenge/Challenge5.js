@@ -1,4 +1,4 @@
 function reverseArray(Number){
-return Number.reverse();
+return Array.reverse();
 }
 console.log(reverseArray ([11,12,17]))
