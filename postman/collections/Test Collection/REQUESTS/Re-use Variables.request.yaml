@@ -1,0 +1,5 @@
+$kind: http-request
+name: Re-use Variables
+url: ""
+method: GET
+order: 759540872688379

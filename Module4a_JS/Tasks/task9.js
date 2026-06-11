@@ -1,5 +1,6 @@
 let friends=['Roheemah', 'Aisha', 'Fatimah' , 'Omolade', 'Aminah']
 
-console.log(friends);
+let bestFriend = ('Roheemah')
 
+console.log(bestFriend[0]);
 
